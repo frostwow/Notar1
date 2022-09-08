@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+body{
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+
+
+.header {
+    max-height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.123);
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.header-logo {
+    height: 120px;
+    display: flex;
+}
+.img-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.img-logo img {
+    width: 75px;
+    height: 75px;
+}
+.logo-name {
+font-weight: 500;
+font-size: 16px;
+}
+.logo-name p:first-child{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+    color: red;
+    margin-left: 15px;
+}
+.logo-name p:last-child{
+    margin-left: 15px; 
+}
+.header-adres {  
+    display: flex;  
+    
+}
+.adres-logo{  
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+
+}
+.adres-text{
+font-weight: 500;
+font-size: 16px;
+margin-left: 20px;
+}
+.header-tel {
+    display: flex;
+}
+.logo-tel img{
+    width: 50px;
+    height: 50px;
+
+}
+.tel{
+    margin-left: 15px; 
+    margin-bottom: 15px;
+}
+.tel a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.tel a:hover{
+    color: red;
+}
+.mail a{
+    text-decoration: none;
+    color: black;
+    margin-left: 14px; 
+    transition: 0.5s;
+} 
+.mail a:hover{
+    color: red;
+}
+.header-social {
+    display: flex;
+    margin-left: 80px;
+    width: 150px;
+    margin-left: 10px;
+}
+.soc-wath:hover{
+   background-color:red;
+   border: 3px solid red;
+   border-radius: 50px;
+
+}
+.soc-wath,.soc-viber,.soc-telegram {
+    transition: 0.5s;
+}
+.soc-viber:hover {
+    background-color:red;
+    border: 3px solid red;
+    border-radius: 50px;
+}
+.soc-telegram:hover { 
+    background-color:red;
+    border: 3px solid red;
+    border-radius: 50px;
+}
+/* main */
+.main{
+    width: 1920px;
+    margin: 15px auto 0 auto;
+
+}
+.sectionone{ 
+    position: relative;
+}
+.main-back{
+    width: 100%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+.sec-one-text{
+position: absolute;
+top: 0;
+}
+.sec-one-text h1{
+    font-weight: 500;
+    font-size: 100px;
+    margin-left: 70px;
+}
+.sec-one-text h2{
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 70px;
+}
+.textone {
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 70px;
+    color: red;
+}
+.texttwo{
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 70px;
+}
+
+/* footer */
+.footer{
+    margin: 15px auto 0 auto;
+    width: 1920px;
+    background-color: rgba(0, 0, 0, 0.123);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.footer-contact{
+    display: flex;
+    height: 100px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-adres p{
+    font-weight: 500;
+    font-size: 35px;
+}
+.footer-tel a{
+    font-weight: 500;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer-tel a:hover, .footer-mail a:hover{
+    color: red;
+    font-size: 40px;
+}
+.footer-mail a{
+    font-weight: 500;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-soc{
+    display: flex;
+}
+.footer-adres-second p{
+    font-weight: 500;
+    font-size: 15px; 
+}
+.footer-adre-soc{
+display: flex;
+height: 100px;
+border-radius: 15px;
+align-items: center;  
+justify-content: space-between;
+padding: 0 30px 0 30px;
+}
+
+
